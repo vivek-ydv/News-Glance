@@ -1,9 +1,13 @@
 .card {
     padding: 15px 10px;
-    box-shadow: 0 0 20px 0px rgba(21, 18, 18, 0.251);
+    box-shadow: 0 0 8px 0px rgba(21, 18, 18, 0.136);
     transition: transform 0.5s;
 }
 
 .card:hover {
     transform: translateY(-7px);
+}
+
+.navbar .nav-link:hover {
+    color: #ea1c2c;
 }

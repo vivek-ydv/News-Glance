@@ -41,7 +41,7 @@ const News = (props) => {
     }, [])
 
     return <div>
-        <h1 className="text-center" style={{ margin: '40px 0', marginTop: '90px' }}>NewsGlance - Top {capitalizeFirstLetter(props.category)} Headlines</h1>
+        <h1 className="text-center" style={{ margin: '40px 0', marginTop: '90px', color: props.mode === "dark" ? "white" : "black", letterSpacing: '1.5px', fontFamily: "revert", textTransform: "uppercase" }}><span>NEWSGLANCE</span> - Top {capitalizeFirstLetter(props.category)} Headlines</h1>
         {loading && <Spinner />}
 
         <InfiniteScroll
@@ -61,6 +61,8 @@ const News = (props) => {
                                 author={author ? author : 'Unknown'}
                                 date={publishedAt}
                                 source={source.name}
+                                mode={props.mode}
+                                toggleMode={props.toggleMode}
                             />
                         </div>
                     })}
