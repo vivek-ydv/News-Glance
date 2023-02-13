@@ -1,8 +1,15 @@
-# Getting Started with Create React App
+# NewsGlance
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NewsGlance is daily news app built using reactJS and newsApi.
 
-## Available Scripts
+**Live Link -**  https://news-glance.vercel.app/ *[The news in this URL is outdated because newsapi can only be used with local host servers.]*
+
+## ScreenShots
+![Technology-NewsGlance -Loading](https://user-images.githubusercontent.com/94732358/218365901-79109488-b93b-4199-876d-0573d83335e0.png)
+![Technology-NewsGlance](https://user-images.githubusercontent.com/94732358/218365913-809f621e-0850-458c-bf97-13ce201a70a5.png)
+![Sports-NewsGlance-DarkM](https://user-images.githubusercontent.com/94732358/218365918-f7de21f0-24d3-4ae2-89c5-b5d3e50d4d2a.png)
+
+# How to Install and Run the Project
 
 In the project directory, you can run:
 
