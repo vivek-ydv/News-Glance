@@ -1,4 +1,4 @@
-![Alt text](screemshots/Technology-NewsGlance -Loading.png)
+![Alt text](screenshots/Technology-NewsGlance-Loading.png)
 
 # Getting Started with Create React App
 
